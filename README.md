@@ -77,4 +77,11 @@ git add는 파일의 현재 상태를 기록하겠다는 명령어
     
     태그의 포함 관계에 따라 부모 태그, 자식 태그로 부른다.
     사이 좋은 태그의 쌍들이 있다.
-    
+
++ Github 내 웹 호스팅 기능 활성화
+
+    + Settings -> Code and automation -> Pages -> Branch를 main으로 -> Save -> DNS 설정
+
+    + Actions -> pages-build-deployment, workflow 확인
+
+    + 도메인이 생성된 이후 링크를 클릭하면 접속 가능하다.
