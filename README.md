@@ -68,6 +68,8 @@ git add는 파일의 현재 상태를 기록하겠다는 명령어
         + target 속성, title 속성: 링크를 클릭하기 전 툴팁 표시
 
           target="_blank" title="툴팁내용" 과 같이 사용
+    
+    + font: 현재는 사용하지 않는 태그, CSS를 사용
 
 + html 속성
     
@@ -85,3 +87,12 @@ git add는 파일의 현재 상태를 기록하겠다는 명령어
     + Actions -> pages-build-deployment, workflow 확인
 
     + 도메인이 생성된 이후 링크를 클릭하면 접속 가능하다.
+
+# TIL 2023.01.29
+
++ CSS
+    + style 태그: HTML의 문법이면서, 태그 안쪽에 있는 내용은 CSS 문법에 맞게 처리함
+
+    + a: 모든 "a" 태그에 대해서
+
+    + color:red; -> 폰트 색상이 빨간색
